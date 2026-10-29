@@ -24,3 +24,7 @@ app.use((err, req, res, next) => {
 });
 
 module.exports = app;
+
+//Vai se fundir com o app.js para formar o index.js, concentrando em um só arquivo a criação do servidor e a configuração das rotas. 
+//Ajuda a simplificar a estrutura do projeto, tornando-o mais fácil de entender e manter.
+//Tratamento de erros irá para a pasta Errors.
