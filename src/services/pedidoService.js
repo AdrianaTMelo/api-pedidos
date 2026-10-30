@@ -1,3 +1,5 @@
+//Constantes permitidas para validação de status, tipos e prioridades
+
 const pedidoRepository = require('../repositories/pedidoRepository');
 const AppError = require('../errors/AppError');
 

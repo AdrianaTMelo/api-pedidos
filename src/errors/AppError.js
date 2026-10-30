@@ -1,3 +1,7 @@
+//Criação de uma classe de erro personalizada para a API, que estende a classe Error do JavaScript.
+//Tratamentos de erros ocorrerão diretamente aqui! Mensagens personalizadas serão retornadas para o usuário, 
+//de acordo com o tipo de erro que ocorrer.
+
 class AppError extends Error {
   constructor(message, statusCode = 400) {
     super(message);
@@ -5,11 +9,17 @@ class AppError extends Error {
   }
 }
 
-module.exports = AppError;
+app.use((err, req, res, next) => {
+  if (err instanceof AppError) {
+    return res.status(err.statusCode).json({
+      status: 'error',
+      message: err.message
+    });
+  }
 
-/* 
-Usaremos essa file para realizar o tratamento de erros da API. Ela está retornando uma mensagem de erro
-+ o código de status do erro. O que está correto, mas o professor pediu especificamente tratar os erros de forma
-mais detalhada, uma vez que o usuário pode não saber o que está ocorrendo. Faremos isso aqui ao invés de exportar
-essa classe lá para o app.js, enquanto permite unir app.js + server.js em um único arquivo 
-*/
+  console.error(err);
+  return res.status(500).json({
+    status: 'error',
+    message: 'Ocorreu um erro interno no servidor.'
+  });
+});
