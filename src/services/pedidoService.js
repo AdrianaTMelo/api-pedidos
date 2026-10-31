@@ -1,3 +1,4 @@
+//--------------------------------------------------------------------------------------------
 //Constantes permitidas para validação de status, tipos e prioridades
 
 const pedidoRepository = require('../repositories/pedidoRepository');
@@ -15,7 +16,9 @@ const TRANSIÇÕES_PERMITIDAS = {
   cancelado: []
 };
 
+//Regras de negócios + validações de dados para criação, listagem, busca, atualização e delete de pedidos
 const pedidoService = {
+
   criarPedido: (dados) => {
     const { cliente, tipo, valor, prioridade } = dados;
 
@@ -88,7 +91,26 @@ const pedidoService = {
     }
 
     return pedidoRepository.updateStatus(numId, novoStatus);
+  },
+
+  deletarPorId: (id) => {
+    const numId = Number(id);
+    if (isNaN(numId) || numId <= 0) {
+      throw new AppError('Identificador inválido.', 400);
+    }
+
+    // Chama o nome exato que você criou no repository: clearById
+    const pedidoDeletado = pedidoRepository.clearById(numId);
+    console.log('Pedido deletado com sucesso:', pedidoDeletado);
+
+    // Se retornou null, é porque não achou o pedido
+    if (!pedidoDeletado) {
+      throw new AppError(`Pedido com ID ${id} não foi encontrado.`, 404);
+    }
+
+    // Retorna o pedido que acabou de ser deletado
+    return pedidoDeletado;
   }
-};
+}
 
 module.exports = pedidoService;

@@ -2,17 +2,18 @@
   "name": "projeto-tasii",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-  "start": "node index.js",
-  "test": "jest --runInBand --detectOpenHandles"
-},
+    "start": "node src/index.js",
+    "test": "jest --runInBand --detectOpenHandles"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "express": "^5.3.0"
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14"
   },
   "devDependencies": {
     "jest": "^30.5.2",
