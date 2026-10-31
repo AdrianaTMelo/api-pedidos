@@ -535,14 +535,14 @@ Conforme os requisitos avaliativos, as evidências de execução e validação d
 
 ## 👥 Autores & Identificação Acadêmica
 
-* **Desenvolvedor:**
+* **Desenvolvedores:**
   > * Adriana Oliveira T.Melo
   > * Arthur Ferreira Campanha
   > * Lucas de Souza Pereira
   > * Marco Antônio de Araujo Santos  
 * **Disciplina:** Tópicos Avançados em Sistemas de Informação II  
 * **GitHub:** [@AdrianaTMelo](https://github.com/AdrianaTMelo), [@MarcoAntonio16AS](https://github.com/MarcoAntonio16AS), [@luc3011](https://github.com/luc3011)  
-* **Repositório:** [https://github.com/AdrianaTMelo/api-pedidos]([https://github.com/AdrianaTMelo/api-pedidos)
+* **Repositório:** [github.com/AdrianaTMelo/api-pedidos]([https://github.com/AdrianaTMelo/api-pedidos)
 
 ---
 
