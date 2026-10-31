@@ -79,6 +79,7 @@ Requisição HTTP (Cliente/Postman)
 
 ```text
 Teste-APi/
+|
 ├── evidencias/                       # Capturas de tela comprobatórias da execução via Postman
 |   |
 │   ├── 01-criacao.png                # POST /pedidos com resposta HTTP 201
