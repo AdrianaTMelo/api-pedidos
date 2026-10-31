@@ -541,9 +541,13 @@ Preencha os campos abaixo de acordo com a sua experiência de desenvolvimento:
 
 ## 👥 Autores & Identificação Acadêmica
 
-* **Desenvolvedor:** `[INFORMAR_O_NOME_DOS_MEMBROS]`  
+* **Desenvolvedor:**
+  > * Adriana Oliveira T.Melo
+  > * Arthur Ferreira Campanha
+  > * Lucas de Souza Pereira
+  > * Marco Antônio de Araujo Santos  
 * **Disciplina:** Tópicos Avançados em Sistemas de Informação II  
-* **GitHub:** [@AdrianaTMelo], [@MarcoAntonio16AS], `[ADICIONAR DOS DEMAIS]`  
+* **GitHub:** [@AdrianaTMelo](https://github.com/AdrianaTMelo), [@MarcoAntonio16AS](https://github.com/MarcoAntonio16AS), [@luc3011](https://github.com/luc3011)  
 * **Repositório:** [https://github.com/AdrianaTMelo/api-pedidos]([https://github.com/AdrianaTMelo/api-pedidos)
 
 ---
