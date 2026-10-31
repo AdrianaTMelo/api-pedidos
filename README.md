@@ -470,42 +470,36 @@ Conforme os requisitos avaliativos, as evidências de execução e validação d
 
 ---
 
-## 🤖 Uso de IA no Projeto
-
-> 📝 **ÁREA RESERVADA PARA PREENCHIMENTO MANUAL PELO ALUNO**  
-> *(Conforme item 8 do documento avaliativo: "No README, incluir uma seção 'Uso de IA', informando se utilizou, para quais tarefas e descrevendo ao menos uma sugestão aceita, modificada ou rejeitada, com justificativa.")*
-
-Preencha os campos abaixo de acordo com a sua experiência de desenvolvimento:
+## 🤖 Uso de IA no Projeto  
 
 * **Utilizou ferramentas de Inteligência Artificial como apoio?**  
-  `[ ] Sim`  
+  `[X] Sim`  
   `[ ] Não`
 
 * **Ferramenta(s) utilizada(s):**  
   *(Ex.: ChatGPT, GitHub Copilot, Gemini, Claude, etc.)*  
-  > _Escreva aqui_
-
+  > Foram utilizadas as ferramentas do *Gemini* e *Google IA Studios* 
+  
 * **Tarefas em que a IA foi aplicada:**  
-  * `[ ]` Auxílio no levantamento ou refatoração da arquitetura em camadas
-  * `[ ]` Elaboração ou revisão das regras da máquina de estados
-  * `[ ]` Criação de roteiros de teste unitário e de integração (Jest/Supertest)
-  * `[ ]` Resolução de erros e mensagens de validação
-  * `[ ]` Apoio na confecção da documentação e formatação do README
-  * `[ ]` Outro: _especifique aqui_
+  * `[X]` Auxílio no levantamento ou refatoração da arquitetura em camadas
+  * `[X]` Elaboração ou revisão das regras da máquina de estados
+  * `[X]` Auxílio na criação e compreensão de roteiros de teste unitário e de integração (Jest/Supertest)
+  * `[X]` Auxílio na Resolução de erros apontados pelo Jest/Supertest
+  * `[X]` Apoio na confecção da documentação e formatação do README
 
 * **Sugestão Aceita (com justificativa):**  
   > **Sugestão fornecida pela IA:**  
-  > _Descreva aqui a sugestão que a IA sugeriu e você implementou integralmente._  
+  > _Modelo do README.md completo e pronto._  
   >  
   > **Justificativa da aceitação:**  
-  > _Explique por que essa solução foi benéfica para a arquitetura ou funcionalidade do projeto._
+  > _O motivo de ter sido aceito integralmente tal sugestão está ligado ao fato de como o prompt e solicitação foram descritos e entregues para a IA. Foi fornecido contexto suficiente para a criação do README.md, como por exemplo o link do repositório com os códigos já prontos e em funcionamento + PDF com requisitos e cláusulas do trabalho as quais deveriam ser cumpridas + Template de documentação previamente pronto, e inclusive utilizado em outras documentações por um dos membros da equipe. Vale destacar que ainda assim alguns tópicos foram corrigidos manualmente e passados por uma revisão prévia por garantia de qualidade e conformidade._
 
 * **Sugestão Modificada ou Rejeitada (com justificativa):**  
   > **Sugestão fornecida pela IA:**  
-  > _Descreva aqui uma sugestão que a IA deu, mas que você precisou alterar ou optou por descartar._  
+  > _Divisão do index.js em outros dois arquivos, sendo o server.js e app.js_  
   >  
   > **Justificativa da modificação/rejeição:**  
-  > _Explique o motivo técnico ou decisão de domínio que levou você a ajustar ou não aplicar o código sugerido._
+  > _O motivo para que essa ideia fosse rejeitada e inclusive levou à parte de refatoração do código e comentários explicativos dentro do código está atrelada a divisão já desnecessária e complicação de código, criando arquivos desnecessários e minúsculos que poderiam ser compactados em um único só arquivo, realizando apenas uma pequena diferenciação para que houvesse conflito na hora de rodar os testes unitários, e rodar a API_
 
 ---
 
@@ -541,10 +535,14 @@ Preencha os campos abaixo de acordo com a sua experiência de desenvolvimento:
 
 ## 👥 Autores & Identificação Acadêmica
 
-* **Desenvolvedor:** `[INFORMAR_O_NOME_DOS_MEMBROS]`  
+* **Desenvolvedores:**
+  > * Adriana Oliveira T.Melo
+  > * Arthur Ferreira Campanha
+  > * Lucas de Souza Pereira
+  > * Marco Antônio de Araujo Santos  
 * **Disciplina:** Tópicos Avançados em Sistemas de Informação II  
-* **GitHub:** [@AdrianaTMelo], [@MarcoAntonio16AS], `[ADICIONAR DOS DEMAIS]`  
-* **Repositório:** [https://github.com/AdrianaTMelo/api-pedidos]([https://github.com/AdrianaTMelo/api-pedidos)
+* **GitHub:** [@AdrianaTMelo](https://github.com/AdrianaTMelo), [@MarcoAntonio16AS](https://github.com/MarcoAntonio16AS), [@luc3011](https://github.com/luc3011)  
+* **Repositório:** [github.com/AdrianaTMelo/api-pedidos]([https://github.com/AdrianaTMelo/api-pedidos)
 
 ---
 
