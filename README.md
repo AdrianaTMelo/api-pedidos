@@ -541,8 +541,7 @@ Preencha os campos abaixo de acordo com a sua experiência de desenvolvimento:
 
 ## 👥 Autores & Identificação Acadêmica
 
-* **Desenvolvedor:** `[INFORMAR_O_NOME_DOS_MEMBROS]`
-* **RA (Registro Acadêmico):** `[INFORMAR_SEU_RA_AQUI]`  
+* **Desenvolvedor:** `[INFORMAR_O_NOME_DOS_MEMBROS]`  
 * **Disciplina:** Tópicos Avançados em Sistemas de Informação II  
 * **GitHub:** [@AdrianaTMelo], [@MarcoAntonio16AS], `[ADICIONAR DOS DEMAIS]`  
 * **Repositório:** [https://github.com/AdrianaTMelo/api-pedidos]([https://github.com/AdrianaTMelo/api-pedidos)
