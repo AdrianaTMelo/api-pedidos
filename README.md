@@ -11,6 +11,19 @@
 
 ---
 
+## 📑 Sumário
+
+- [📌 Visão Geral](#-visão-geral-do-projeto)
+- [🏛️ Arquitetura e Estrutura](#️-arquitetura-e-estrutura-de-pastas)
+- [⚙️ Funcionalidades & Regras de Negócio](#️-funcionalidades-e-regras-de-negócio)
+- [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+- [🛣️ Rotas da API e Endpoints](#️-rotas-da-api-e-exemplos-de-requisição)
+- [🚀 Como Executar e Testar](#-como-executar-o-projeto)
+- [📸 Evidências de Testes](#-evidências-de-testes-postman)
+- [👥 Autores & Licença](#-autores--identificação-acadêmica)
+
+---
+
 ## 📌 Visão Geral do Projeto
 
 A **API de Gerenciamento de Pedidos** é uma solução RESTful desenvolvida em **Node.js** e **Express** concebida para atender às demandas de controle de pedidos de uma loja. O sistema permite o ciclo de vida completo do pedido — desde o cadastramento com dados do cliente, tipo de atendimento, valor monetário e nível de prioridade, até consultas pontuais e em lote, além de transições de status guiadas por uma máquina de estados determinada.
