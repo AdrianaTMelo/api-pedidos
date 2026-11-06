@@ -466,7 +466,7 @@ Conforme os requisitos avaliativos, as evidências de execução e validação d
 | [`03-listagem.png`](./evidencias/03-listagem.png) | Listagem geral de todos os pedidos cadastrados | `GET /pedidos` | `200 OK` |
 | [`04-consulta-inexistente.png`](./evidencias/04-consulta-inexistente.png) | Consulta a identificador numérico inexistente | `GET /pedidos/:id` | `404 Not Found` |
 | [`05-atualizacao.png`](./evidencias/05-atualizacao.png) | Atualização de status com transição permitida | `PATCH /pedidos/:id/status` | `200 OK` |
-| [`06-delete-id.png`] | Necessário acrescentar | `DELETE /pedidos/:id` | `200 OK` | 
+| [`06-delete-id.png`](./evidencias/06-Delete.jpeg) | Deleção de pedido de acordo com o ID fornecido | `DELETE /pedidos/:id` | `200 OK` | 
 
 ---
 
